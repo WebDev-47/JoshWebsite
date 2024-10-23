@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.web{
+    background-image: url(../src/assets/relaxing-desktop-1920-x-1080-background-eb77uav4u0puvgno.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
