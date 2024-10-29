@@ -1,8 +1,12 @@
 import React from 'react'
+import Api from '../Api'
+import Navbar from './Navbar'
 
 const Home = () => {
   return (
-    <div>
+    <div className=''>
+      <Api/>
+
 
     </div>
   )

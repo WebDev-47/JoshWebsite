@@ -1,12 +1,12 @@
 import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
-import { CiSearch } from "react-icons/ci";
+
 
 const Navbar = () => {
   const [isopen, setisopen] = useState(false);
   return (
-    <div className="web h-screen w-full justify-center">
-      <div className="bg-gray-800 h-[10rem]  flex justify-between items-center shadow-2xl ">
+    <div className=" ">
+      <div className="bg-gray-800 h-[8rem]  flex justify-between items-center shadow-2xl ">
         <img
           className=" bg-white w-[4rem] h-[4rem] rounded-full border-2 border-blue-300 mx-5"
           src="../../../src/assets/download-removebg-preview.png"
@@ -37,9 +37,11 @@ const Navbar = () => {
             </button>
           </ul>
           <div>
+            
             <input type="search" name="" id="" 
             className="bg-transparent border-gray-50/30 border-2 w-[18rem] 
-            h-[2.5rem] absolute right-0 mr-8 mt-2 outline-none rounded-xl text-gray-50/80"   />
+            h-[2rem] absolute right-0 mr-8 mt-2 outline-none rounded-xl text-gray-50/80"   />
+         
           </div>
         </nav>
       </div>

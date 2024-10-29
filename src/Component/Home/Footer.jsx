@@ -21,7 +21,7 @@ const Footer = () => {
                 Architecto libero illo dolor ipsum, iusto deleniti! Nemo enim
                 ullam perspiciatis deserunt.
               </p>
-              <div className=" flex gap-5 py-5 ">
+              <div className=" flex gap-5 py-5 hover:bg-gray-50/90">
                 <FaFacebook size={24} />
                 <FaSquareTwitter size={24} />
                 <CiLinkedin size={24} />
@@ -159,7 +159,7 @@ const Footer = () => {
           className="md:text-left text-center container
         mx-auto py-7 px-6 text-gray-200"
         >
-          <p className="mb-0">
+          <p className="mb-0 justify-center flex">
             &copy;
             <script>document.write(new Date().getFullYear());</script>
             TailwindSnippets team
